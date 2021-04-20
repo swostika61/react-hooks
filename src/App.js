@@ -1,10 +1,12 @@
 import './App.css';
-import Setup from "./practice/1-useState/setup/1-error-example";
+import Basic from "./practice/1-useState/setup/1-useStateBasics";
+import Array from "./practice/1-useState/setup/2-useStateArray";
 
 function App() {
   return (
     <div className="container">
-     <Setup />
+     <Basic />
+     <Array />
     </div>
   );
 }
