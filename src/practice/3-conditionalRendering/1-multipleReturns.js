@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const url = 'https://api.github.com/users/swostika61a';
+const url = 'https://api.github.com/users/swostika61';
 
 const MultipleReturns = () => {
     const [isLoading, setIsLoading] = useState(true);
