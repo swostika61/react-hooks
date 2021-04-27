@@ -7,6 +7,7 @@ import UseEffectBasics from './practice/2-useEffect/1-useEffectBasics';
 import UseEffectCleanup from './practice/2-useEffect/2-useEffectCleanup';
 import UseEffectFetchData from './practice/2-useEffect/3-useEffectFetchData';
 import MultipleReturns from './practice/3-conditionalRendering/1-multipleReturns';
+import ShortCircuit from './practice/3-conditionalRendering/2-shortCircuit';
 
 
 
@@ -20,7 +21,8 @@ function App() {
      <UseEffectBasics />
      <UseEffectCleanup />
      <UseEffectFetchData />
-     <MultipleReturns/>
+     <MultipleReturns />
+     <ShortCircuit />
     </div>
     
   );
