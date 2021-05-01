@@ -1,5 +1,8 @@
 import './App.css';
-import PropDrilling from './practice/7-propDrilling/propDrilling';
+import ReactRouterSetup from './practice/10-reactRouter/index';
+// import FetchExample from './practice/9-customHooks/fetchExample';
+// import ContextApi from './practice/8-contextApi/useContext';
+// import PropDrilling from './practice/7-propDrilling/propDrilling';
 // import UseRefBasics from './practice/5-useRef/1-useRefBasics';
 // import Index from './practice/6-useReducer';
 // import ControlledInputs from './practice/4-forms/1-controlledInputs';
@@ -34,7 +37,10 @@ function App() {
      <MultipleInputs /> 
      <UseRefBasics /> */}
      {/* <Index /> */}
-     <PropDrilling/>
+     {/* <PropDrilling/> */}
+     {/* <ContextApi /> */}
+     {/* <FetchExample /> */}
+     <ReactRouterSetup/>
     </div>
     
   );
